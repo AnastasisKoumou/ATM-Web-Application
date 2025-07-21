@@ -1,0 +1,117 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Noto Sans", sans-serif;
+    background-color: #17559c;
+}
+
+h1 {
+    position: absolute;
+    top: 30px;
+    left: 50px;
+    font-size: 2rem;
+    color: white;
+    font-weight: bold;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 100px;
+}
+
+.atm-container {
+    background-color: #0c47a1;
+    width: 800px;
+    border-radius: 16px;
+    padding: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 40px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+}
+
+.description {
+    color: white;
+    text-align: center;
+    font-weight: 500;
+}
+
+.description h2 {
+    font-size: 1.5rem;
+    font-weight: 800;
+}
+
+.description p {
+    font-size: 1.2rem;
+    margin-top: 10px;
+}
+
+label {
+    color: white;
+    font-size: 1.2rem;
+}
+
+#bills {
+    padding: 10px;
+    border: 1px solid #cccccc;
+    border-radius: 4px;
+    color: #222;
+    margin-top: 8px;
+    font-size: 1rem;
+    width: 155px;
+    background-color: #fafafa;
+}
+
+button {
+    margin-top: 20px;
+    padding: 14px 24px;
+    font-size: 1rem;
+    background-color: #e8005b;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.6);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1000;
+}
+
+.modal-content {
+  background-color: white;
+  padding: 20px 30px;
+  border-radius: 8px;
+  text-align: center;
+}
+
+.modal.hidden {
+  display: none;
+}
+
+.btn {
+  margin: 10px;
+  padding: 10px 20px;
+  background-color: #e91e63;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}

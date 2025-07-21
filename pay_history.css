@@ -1,0 +1,94 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Noto Sans", sans-serif;
+    background-color: #17559c;
+}
+
+h1 {
+    position: absolute;
+    top: 30px;
+    left: 50px;
+    font-size: 2rem;
+    color: white;
+    font-weight: bold;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 100px;
+}
+
+.atm-container {
+    background-color: #0c47a1;
+    width: 800px;
+    border-radius: 16px;
+    padding: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 40px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+}
+
+.description {
+    color: white;
+    text-align: center;
+    font-weight: 500;
+}
+
+.description h2 {
+    font-size: 1.5rem;
+    font-weight: 800;
+}
+
+.description p {
+    font-size: 1.2rem;
+    margin-top: 10px;
+}
+
+.transactions-title,
+.transaction-row {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    width: 100%;
+    column-gap: 0;
+}
+
+.transactions-title h3 {
+    color: white;
+    font-size: 1.1rem;
+    padding: 4px 0;
+    text-align: left;
+}
+
+.transaction-row {
+    color: white;
+    font-size: 1rem;
+    margin-top: 10px;
+}
+
+.transaction-row p {
+    padding: 4px 0;
+    text-align: left;
+    margin-right: 15px;
+}
+
+button {
+    margin-top: 20px;
+    padding: 14px 24px;
+    font-size: 1rem;
+    background-color: #e8005b;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}

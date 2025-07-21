@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>myATM-Deposit</title>
+
+    <link rel="stylesheet" href="withdraw_page.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <h1>myATM</h1>
+    <main>
+        <div class="atm-container">
+            <div class="description">
+                <h2>Deposit Money</h2>
+                <p>You can deposit money in the range of 20$-500$.</p>
+            </div>
+            <div class="current_amount">
+                <p id="current_amount">{User's amount}</p>
+            </div>
+            <div class="user-input">
+                <input type="number" id="user-input" name="user-input" placeholder="Amount" max="500" min="20" required>
+            </div>
+            <button type="button" id="deposit-btn">Deposit</button>
+            <button type="button" id="back-btn">Back</button>
+        </div>
+    </main>
+    
+    <script type="text/javascript" src="deposit_page.js"></script>
+</body>
+</html>

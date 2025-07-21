@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>myATM-Payments</title>
+
+    <link rel="stylesheet" href="payments.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <h1>myATM</h1>
+    <main>
+        <div class="atm-container">
+            <div class="description">
+                <h2>Pay your Bills</h2>
+                <p>Select the bill you owe and pay in seconds.</p>
+            </div>
+            <div class="select-bill">
+                <label for="bills">Find your bill:</label>
+
+                <select name="bills" id="bills">
+                    <option value="electricity" id="billOption">Electricity - 70$</option>
+                    <option value="internet" id="billOption">Internet - 50$</option>
+                    <option value="water" id="billOption">Water - 25$</option>
+                    <option value="phone" id="billOption">Phone - 20$</option>
+                </select>
+
+            </div>
+            <button type="button" id="pay-btn">Pay Bill</button>
+            <button type="button" id="back-btn">Back</button>
+        </div>
+    </main>
+
+    <div id="confirm-modal" class="modal hidden">
+        <div class="modal-content">
+            <p id="modal-text"></p>
+            <button id="confirm-yes" class="btn">Yes</button>
+            <button id="confirm-no" class="btn">No</button>
+        </div>
+    </div>
+    
+    <script type="text/javascript" src="payments.js"></script>
+</body>
+</html>

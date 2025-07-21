@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>myATM</title>
+  <link rel="stylesheet" href="main.css">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+  <h1>myATM</h1>
+
+  <main>
+    <div class="atm-container">
+      <div class="left side">
+
+        <div class="udetails">
+          <p>Welcome</p>
+          <h2 id="name"></h2>
+        </div>
+
+        <div class="udetails">
+          <p>Account#1</p>
+          <h2 id="account-1"></h2>
+        </div>
+
+        <div class="udetails">
+          <p>Savings#2</p>
+          <h2 id="savings"></h2>
+        </div>
+      </div>
+
+      <div class="right side">
+        <button type="button" class="option-btn" id="withdraw-btn">Withdraw</button>
+        <button type="button" class="option-btn" id="deposit-btn">Deposit</button>
+        <button type="button" class="option-btn" id="payments-btn">Payments</button>
+        <button type="button" class="option-btn" id="history-btn">Payments History</button>
+        <button type="button" class="option-btn" id="settings-btn">Account Settings</button>
+        <button type="button" class="option-btn" id="logout-btn">Logout</button>
+
+        <div class="quick-cash">
+          <span>$70</span>
+          <button id="quickBtn">Quick Cash →</button>
+        </div>
+
+      </div>
+    </div>
+  </main>
+
+  <script type="text/javascript" src="main.js"></script>
+</body>
+</html>
