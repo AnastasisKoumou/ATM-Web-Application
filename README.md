@@ -28,19 +28,20 @@ Built with **JavaScript, HTML, and CSS** — no backend required!
 ## 📸 Screenshots
 
 ### Login Page
-![Login Page](<img width="889" height="501" alt="login_page" src="https://github.com/user-attachments/assets/495b1bb4-056c-4227-bf67-22d8a5ca0b30" />)
+![Login Page](https://github.com/user-attachments/assets/495b1bb4-056c-4227-bf67-22d8a5ca0b30)
 
 ### Main Page
-![Main Page](<img width="1332" height="560" alt="main_page" src="https://github.com/user-attachments/assets/73862cdb-cb77-46c5-af86-4dcadd5663c2" />)
+![Main Page](https://github.com/user-attachments/assets/73862cdb-cb77-46c5-af86-4dcadd5663c2)
 
 ### Withdraw/Deposit Page
-![Withdraw/Deposit Page](<img width="1304" height="550" alt="withdraw_page" src="https://github.com/user-attachments/assets/ad5cfb7d-e023-485a-8d16-eb22a4d3b5ec" />)
+![Withdraw/Deposit Page](https://github.com/user-attachments/assets/ad5cfb7d-e023-485a-8d16-eb22a4d3b5ec)
 
 ### Payments Page
-![Payments Page](<img width="1334" height="550" alt="payments_page" src="https://github.com/user-attachments/assets/c916dea8-d785-4502-bbdf-89b845a37898" />)
+![Payments Page](https://github.com/user-attachments/assets/c916dea8-d785-4502-bbdf-89b845a37898)
 
 ### Transactions History Page
-![Transactions Page](<img width="1339" height="557" alt="history_page" src="https://github.com/user-attachments/assets/bbe3a9ae-a7cb-4579-8db7-ac4774541c63" />)
+![Transactions Page](https://github.com/user-attachments/assets/bbe3a9ae-a7cb-4579-8db7-ac4774541c63)
+
 
 ---
 
